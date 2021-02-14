@@ -8,7 +8,7 @@ export default function Home() {
 
 	return (
 		<div>
-			<h1>title</h1>
+			<h1 className="text-purple-500">title</h1>
 			{cats.map((cat, index) => {
 				return (
 					<div key={index}>
